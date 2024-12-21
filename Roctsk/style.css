@@ -1,0 +1,233 @@
+body {
+    font-family: cursive;
+    position: relative;
+    margin: 0;
+}
+
+header {
+    border: 5px solid green;
+    box-shadow: 100 100 100px green;
+    background-color: black;
+    color: green;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.name {
+    font-size: 30px;
+    margin-right: 480px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: green;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 128, 0, 0.4);
+}
+
+.navig {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 31px;
+}
+
+.navig div {
+    cursor: pointer;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.1s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.button:hover {
+    background-color: green;
+    transform: scale(1.50);
+    box-shadow: 0 8px 15px rgba(0, 128, 0, 0.4);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url('img_5.png') ;
+    border: 5px solid green;
+    box-shadow: 0 0 100px green;
+    backdrop-filter: blur(3px);
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1300px;
+    width: 100%;
+    gap: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:white;
+}
+
+.img_men {
+    max-width: 400px;
+    height: auto;
+}
+
+.text h1 {
+    font-size: 36px;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+.img_music {
+    position: absolute;
+    color:white;
+}
+
+.img_music:nth-child(2) {
+    top: 450px;
+    left: 650px;
+}
+
+
+
+footer {
+    border: 5px solid green;
+    box-shadow: 0 0 40px green;
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.music-player h1 {
+    font-size:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.music-player p {
+     font-size:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+a {
+    position: relative;
+    color: green;
+    text-decoration: none;
+}
+
+a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+a:hover::before {
+    border-color: #f0f0f0 ;
+}
+span{
+backdrop-filter: blur(1px);
+}
+
+.song-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.song {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.artist-photo {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.song-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.song-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.song-info p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.song-info audio {
+    width: 100%;
+    max-width: 400px;
+}
+
+.Name_music{
+color:green;
+}
+
+.audi{
+padding:20px;
+}
